@@ -1,0 +1,92 @@
+/* Search Component */
+#search-area {
+  border: none;
+  border-bottom: 1px solid #b5b5b5;
+  outline: none !important;
+  width: 50%;
+  margin: auto;
+  box-shadow: none !important;
+  border-radius: 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+::placeholder {
+  color: rgb(0, 0, 0) !important;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-style: italic;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+/* Search Component End */
+
+/* Nav Component */
+
+#nav {
+  background-color: #000;
+}
+
+.nav-title {
+  font-family:'Times New Roman', Times, serif;
+  letter-spacing: 1px;
+  font-size: 50px;
+}
+
+/* Nav Component End*/
+
+.info-btn {
+  color: #f1f1f1 !important;
+  background-color: #000000c2 !important;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  transition: .5s ease !important;
+}
+
+.info-btn:hover {
+  background-color: gray !important;
+  color: black !important;
+}
+
+#card-img img {
+  transition: all .5s ease ;
+}
+
+#card-img:hover img {
+  transform: scale(1.05);
+}
+
+/* FilmInfo Component */
+
+#container {
+  background-color: #000;
+}
+
+.letter-spacing {
+  letter-spacing: .6px;
+}
+.info-film-title {
+  font-size: 45px;
+  color: #f1f1f1;
+  font-family: monospace;
+}
+
+.info-film-date {
+  color: #f1f1f1;
+}
+
+.info-film-overview {
+  color: #f1f1f1;
+}
+
+#go-back-button {
+  font-size: 20px;
+}
+
+/* FilmInfo Component End */
+
+
+

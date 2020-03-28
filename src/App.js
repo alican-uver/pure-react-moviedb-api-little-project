@@ -23,7 +23,7 @@ class App extends Component {
     }
 
     handleSubmit = e => {
-        fetch (`${this.baseUrl}?api_key=${this.apiKey}&query=${this.state.searchedWord}`)
+        fetch (`${this.baseUrl}?api_key=${this.apiKey}&query=${this.state.searchedWord}&language=tr`)
         .then(data => data.json())
         .then(films => {
             console.log(films.results);
@@ -33,6 +33,7 @@ class App extends Component {
             })
         })
         
+
         e.preventDefault()
     }
 
